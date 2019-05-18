@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="10" result="Failed" total="10" passed="7" failed="3" inconclusive="0" skipped="0" asserts="5" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-05-18 14:08:52Z" end-time="2019-05-18 14:09:24Z" duration="32.173530">
+  <command-line><![CDATA["C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe" C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\bin\Debug\Ubisoft_site_auto_test.exe]]></command-line>
+  <test-suite type="Assembly" id="0-1011" name="Ubisoft_site_auto_test.exe" fullname="C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\bin\Debug\Ubisoft_site_auto_test.exe" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2019-05-18 14:08:52Z" end-time="2019-05-18 14:09:24Z" duration="31.751676" total="10" passed="7" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="5">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\packages\NUnit.ConsoleRunner.3.10.0\tools" machine-name="DESKTOP-PLB1VMO" user="KIV-WKS-TT264" user-domain="DESKTOP-PLB1VMO" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\packages\NUnit.ConsoleRunner.3.10.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="16" />
+    </settings>
+    <properties>
+      <property name="_PID" value="16164" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1012" name="Coursera_auto_test" fullname="Coursera_auto_test" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2019-05-18 14:08:52Z" end-time="2019-05-18 14:09:24Z" duration="31.736614" total="10" passed="7" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="5">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1013" name="Tests" fullname="Coursera_auto_test.Tests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2019-05-18 14:08:52Z" end-time="2019-05-18 14:09:24Z" duration="31.736221" total="10" passed="7" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="5">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1000" name="Login" fullname="Coursera_auto_test.Tests.Login" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2019-05-18 14:08:52Z" end-time="2019-05-18 14:09:24Z" duration="31.733521" total="10" passed="7" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="_1_French" fullname="Coursera_auto_test.Tests.Login._1_French" methodname="_1_French" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="1338641367" result="Passed" start-time="2019-05-18 14:09:00Z" end-time="2019-05-18 14:09:01Z" duration="1.137881" asserts="1" />
+          <test-case id="0-1002" name="_2_English" fullname="Coursera_auto_test.Tests.Login._2_English" methodname="_2_English" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="568642252" result="Passed" start-time="2019-05-18 14:09:01Z" end-time="2019-05-18 14:09:02Z" duration="1.105090" asserts="1" />
+          <test-case id="0-1003" name="_3_Italian_F" fullname="Coursera_auto_test.Tests.Login._3_Italian_F" methodname="_3_Italian_F" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="499810865" result="Failed" start-time="2019-05-18 14:09:02Z" end-time="2019-05-18 14:09:04Z" duration="1.676484" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at Coursera_auto_test.Tests.Login._3_Italian_F() in C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\Tests\Login.cs:line 83
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at Coursera_auto_test.Tests.Login._3_Italian_F() in C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\Tests\Login.cs:line 83
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1004" name="_4_German" fullname="Coursera_auto_test.Tests.Login._4_German" methodname="_4_German" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="1900789174" result="Passed" start-time="2019-05-18 14:09:04Z" end-time="2019-05-18 14:09:05Z" duration="1.129586" asserts="1" />
+          <test-case id="0-1005" name="_5_Spanish" fullname="Coursera_auto_test.Tests.Login._5_Spanish" methodname="_5_Spanish" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="1137389589" result="Passed" start-time="2019-05-18 14:09:05Z" end-time="2019-05-18 14:09:06Z" duration="1.142652" asserts="1" />
+          <test-case id="0-1006" name="_6_Login_test_wrong_username" fullname="Coursera_auto_test.Tests.Login._6_Login_test_wrong_username" methodname="_6_Login_test_wrong_username" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="68882077" result="Failed" label="Error" start-time="2019-05-18 14:09:06Z" end-time="2019-05-18 14:09:11Z" duration="5.347639" asserts="0">
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 1 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: overlay-iframe]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Coursera_auto_test.Tests.Login.Wait(IWebElement element, Int32 time) in C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\Tests\Login.cs:line 27
+   at Coursera_auto_test.Tests.Login._6_Login_test_wrong_username() in C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\Tests\Login.cs:line 121
+--NoSuchElementException
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OpenQA.Selenium.IWebElement.get_Displayed()
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass20_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1007" name="_7_Login_test_wrong_password" fullname="Coursera_auto_test.Tests.Login._7_Login_test_wrong_password" methodname="_7_Login_test_wrong_password" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="560528719" result="Failed" label="Error" start-time="2019-05-18 14:09:11Z" end-time="2019-05-18 14:09:13Z" duration="1.291512" asserts="0">
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 1 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: overlay-iframe]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Coursera_auto_test.Tests.Login.Wait(IWebElement element, Int32 time) in C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\Tests\Login.cs:line 27
+   at Coursera_auto_test.Tests.Login._7_Login_test_wrong_password() in C:\Users\KIV-WKS-TT264\source\repos\Ubisoft_site_auto_test\Ubisoft_site_auto_test\Tests\Login.cs:line 135
+--NoSuchElementException
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OpenQA.Selenium.IWebElement.get_Displayed()
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass20_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1008" name="_8_Login_test" fullname="Coursera_auto_test.Tests.Login._8_Login_test" methodname="_8_Login_test" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="1344850102" result="Passed" start-time="2019-05-18 14:09:13Z" end-time="2019-05-18 14:09:16Z" duration="3.860497" asserts="0" />
+          <test-case id="0-1009" name="_9_Change_avatar" fullname="Coursera_auto_test.Tests.Login._9_Change_avatar" methodname="_9_Change_avatar" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="6245782" result="Passed" start-time="2019-05-18 14:09:16Z" end-time="2019-05-18 14:09:21Z" duration="4.418903" asserts="0" />
+          <test-case id="0-1010" name="_Logout" fullname="Coursera_auto_test.Tests.Login._Logout" methodname="_Logout" classname="Coursera_auto_test.Tests.Login" runstate="Runnable" seed="99719023" result="Passed" start-time="2019-05-18 14:09:21Z" end-time="2019-05-18 14:09:24Z" duration="3.136328" asserts="0" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
